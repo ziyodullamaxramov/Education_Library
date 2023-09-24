@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+  :root{
+    --dollar: 'Space Mono', monospace;
+    --Pcolor: #C8C7D8;
+  }
+
 *{
     margin: 0;
     padding: 0;
@@ -130,6 +137,9 @@ main .project h4,p{
     text-align: left;
     padding: 20px;
 }
+.section h3{
+    color: #fff;
+}
 .face1{
     position: absolute;
     border-radius: 50%;
@@ -202,6 +212,9 @@ main p{
 .what .color i{
     margin-left: 15px;
 }
+.what p{
+    color: var(--Pcolor);
+}
 .what h2{
     color: #fff;
     font-size: 30px;
@@ -228,6 +241,9 @@ main p{
     text-align: left;
     padding: 10%;
 }
+.round_txt h4{
+    color: #fff;
+}
 .q_txt{
     width: 500px;
     margin-top: 15%;
@@ -245,14 +261,14 @@ main p{
 }
 .list{
     position: relative;
-    color: #fff;
+    color: var(--Pcolor);
     text-align: left;
     width: 65%;
     margin-left: 5%;
 }
 .list li{
     list-style: none;
-    border-top: 1px solid #fff;
+    border-top: 1px solid var(--Pcolor);
     padding: 17px;
 }
 .list li i{
@@ -260,7 +276,7 @@ main p{
     right: 0;
 }
 .endlist{
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid var(--Pcolor);
 }
 .procces-txt{
     position: relative;
@@ -276,6 +292,9 @@ main p{
     display: grid;
     grid-template-columns: auto auto auto;
     margin-left: -2%;
+}
+.applyblog h4{
+    color: #fff;
 }
 .apply, .interview, .grant{
     height: 450px;
@@ -366,4 +385,11 @@ main p{
     padding: 30px;
     color: #fff;
     font-size: 25px;
+}
+.p{
+    font-family: var(--dollar);
+    color: var(--Pcolor);
+}
+.pp{
+    color: var(--Pcolor);
 }
