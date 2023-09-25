@@ -21,6 +21,7 @@ header{
     display: flex;
     justify-content: space-between;
     padding-top: 50px;
+    margin-left: 7%;
 }
 .logo{
     margin-left: 50px;
