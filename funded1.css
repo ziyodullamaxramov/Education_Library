@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+:root{
+  --dollar: 'Space Mono', monospace;
+  --Pcolor: #C8C7D8;
+  --bgcolor: #393953;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body{
+  background-image: url(./mediaHome/bg\ img.png);
+  text-align: center;
+}
+header{
+    width: 1519px;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    margin-left: 7%;
+}
+.logo{
+    margin-left: 50px;
+}
+.nav{
+    margin: 25px 50px;
+}
+.nav ul{
+    display: inline-block;
+}
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+.nav ul li a{
+    color: rgb(182, 184, 185);
+    text-decoration: none;
+    padding: 20px;
+    font-family: var(--dollar);
+    color: var(--Pcolor);
+}
+.nav button{
+    background: #6966FF;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 12px;
+    border: none;
+}
+.btn_left{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #393953;
+    color:#C3C2D4;
+    padding: 15px;
+    border: none;
+    border-radius: 50%;
+    margin-left: 22%;
+}
+.btn_left i{
+    font-size: 16px;
+}
+.png{
+    margin-top: -2.3%;
+}
+.h1{
+    text-align: left;
+    width: 75%;
+    margin-top: 10%;
+    margin-left: 13%;
+}
+h1{
+    font-size: 65px;
+    color: #fff;
+}
+.btn-flex{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1%;
+    margin-left: 13%;
+}
+.btn-flex p{
+    display: inline-block;
+}
+.btn{
+    background: #16B57F;
+    color: #fff;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 50px;
+}
+.project{
+    background: #6966FF;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+}
+.container{
+    position: relative;
+    text-align: left;
+    width: 75%;
+    margin-top: 1%;
+    margin-left: 13%;
+}
+.container button{
+    display: grid;
+    grid-template-columns: 60px 60px;
+    margin-left: 10px;
+    width: 200px;
+    background-color: var(--bgcolor);
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    border-radius: 50px;
+    padding: 8px 15px;
+    align-items: center;
+}
+.btn1{
+    position: absolute;
+    top: 22px;
+    left: 220px;
+}
+.string{
+    text-align: left;
+}
+.string h3{
+    color: #fff;
+}
+.string p{
+    color: var(--Pcolor);
+}
+.string a{
+    color: #6966FF;
+    
+}
+
+
+
+
+
+
+
+
+
+.p{
+    font-family: var(--dollar);
+    color: var(--Pcolor);
+}
+.pp{
+    color: var(--Pcolor);
+}
