@@ -141,6 +141,105 @@ h1{
     color: #6966FF;
     
 }
+.round{
+    background-color: var(--bgcolor);
+    color: #fff;
+    width: 75%;
+    margin-left: 13%;
+    border-radius: 12px;
+    height: 150px;
+    padding: 20px;
+    text-align: left;
+    position: relative;
+}
+.span{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+.span p{
+    display: inline-block;
+}
+h3{
+    color: #fff;
+    text-align: left;
+    margin-left: 13%;
+}
+.funding{
+    background-color: var(--bgcolor);
+    color: #fff;
+    width: 75%;
+    margin-left: 13%;
+    border-radius: 12px;
+    height: 150px;
+    padding: 20px;
+    text-align: left;
+    position: relative;
+    margin-top: 20px;
+}
+.more{
+    color: #fff;
+    margin-top: 10%;
+}
+.categorys{
+    display: grid;
+    grid-template-columns: 380px 380px;
+    margin-left: 29%;
+}
+.category{
+    width: 360px;
+    height: 500px;
+    background-color: var(--bgcolor);
+    margin: 0px;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: left;
+    position: relative;
+}
+.avatar_group{
+    position: absolute;
+    bottom: 20px;
+
+}
+p{
+    line-height: 26px;
+}
+.blue{
+    color: #6966FF;
+
+}
+.div-beetven{
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    margin-left: 10%;
+}
+.div-beetven li{
+    font-family: var(--dollar);
+    color: var(--Pcolor);
+    list-style: none;
+    
+    display: inline-block;
+    margin: 25px 15px;
+}
+.div-beetven img{
+    display: inline-block;
+    margin-top: 7%;
+}
+.div2__{
+    margin-right: 10%;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.div2__ i{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    color: #fff;
+    font-size: 25px;
+   
+    color: var(--Pcolor);
+}
 
 
 
